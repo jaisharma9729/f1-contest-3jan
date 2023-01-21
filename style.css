@@ -1,0 +1,56 @@
+body{
+    background-color: gold;
+}
+h1{
+    font-family: cursive;
+    font-size: 70px;
+    margin-left: 15px;
+}
+.Border{
+    margin-top: 50px;
+    display: grid;
+    gap: 100px;
+    grid-template-columns: 150px auto;
+    width: 700px;
+    border: 20px solid rgba(44, 44, 44, 0.752) ;
+    margin-left: 200px;
+}
+.Arena{
+    border: 40px solid wheat;
+    background-color: white;
+    padding: 20px;
+    width: 621px;
+    display: grid;
+    grid-template-columns: 300px 300px ;
+    grid-template-rows: 300px 150px;
+    gap: 20px;
+}
+.Area1{
+    background-image: url('https://picsum.photos/200/300');
+    width: 100%;
+}
+.Area2{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+.Area3{
+    background-image: url('https://picsum.photos/200');
+    width: 100%;
+}
+.Area4{
+    background-image: url('https://picsum.photos/100');
+    background-size: 100% 100%;
+}
+.Area2_1{
+    background-image: url('https://picsum.photos/400');
+}
+.Area2_2{
+    background-image: url('https://picsum.photos/300');
+}
+.Area2_3{
+    background-image: url('https://picsum.photos/500');
+}
+.Area2_4{
+    background-image: url('https://picsum.photos/600');
+}
